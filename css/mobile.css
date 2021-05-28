@@ -1,0 +1,85 @@
+#home-info .info-img{
+    float:none;
+    width:100%;
+}
+
+#home-info .info-content{
+  display: none;
+    
+  }
+
+  .box{
+    float:none;
+    width:100%;
+    text-align: center;
+    padding:30px;
+    background:rgb(231, 206, 173);
+    line-height: 30px;
+  
+  }
+
+  .free_meals{
+    background-color: rgb(247, 242, 242);
+  
+  }
+  #testimonials .person p{
+    width:60%;
+    float:right;
+    line-height: 25px;
+    padding-top:10px;
+  
+    
+  }
+
+  .box-1{
+    float:none;
+    width: 100%;
+    text-align:center;
+    background-color: whitesmoke;
+    border-bottom: white 3px solid;
+  padding:20px;
+  }
+
+  .btn-1{
+    background-color: black;
+    font-size:15px;
+    border-radius: 3px;
+    padding: 5px 10px; 
+    margin:0;
+    margin-bottom:50px;
+  }
+
+  
+ .showcase-content h1{
+    color:white;
+    font-size:50px ;
+    text-align: center;
+    padding-bottom: 50px;
+    
+   }
+  
+   .showcase-content{
+     padding-top:150px;
+   }
+  
+  
+    .primary{
+     color:rgb(231, 206, 173);
+   }
+
+   #about-info .info-left{
+    display:none;
+  }
+
+  #contact-info h1{
+      text-align: center;
+    font-size: 40px;
+    padding-top:25px;
+  }
+
+  #contact-info p{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }

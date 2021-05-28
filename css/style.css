@@ -1,0 +1,392 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+ }
+ 
+
+
+ body{
+  line-height: 40px;
+  height:600px;
+}
+ 
+#navbar{
+  background: #333;
+  height:60px;
+  overflow:auto;
+}
+
+ #navbar h1{
+  float:left; 
+  padding:10px ;
+  font-size:38px;
+  
+ }
+
+ 
+
+ #navbar h1 a:hover{
+   color:rgb(214, 165, 101);
+ }
+
+ #navbar h1 a{
+  text-decoration: none;
+  color:rgb(214, 165, 101);
+}
+
+#navbar ul{
+  float:right;
+ 
+}
+
+#navbar ul li{
+  float:left;
+  list-style: none; 
+  font-size: 22px;
+  
+}
+
+#navbar ul li a:hover, #navbar ul li a.current {
+ /* background-color: rgb(112, 109, 109); */
+ color:rgb(214, 165, 101);
+ transform: scale(0.9);
+ 
+ 
+}
+
+#navbar ul li a{
+ display: block; 
+ text-decoration: none;
+ color: white;
+   padding: 10px 20px; 
+   
+}
+/* to provide uniformity to the page */
+ .container{
+   margin:auto;
+   max-width:1100px;
+   overflow:auto;
+ }
+ 
+/* Showcase */
+#showcase{
+  background: url('../img/showcase.jpg') center center/cover ;
+  height:705px;
+}
+ 
+ 
+ .showcase-content h1{
+  color:white;
+  font-size:70px ;
+  text-align: center;
+  padding-bottom: 50px;
+  
+ }
+
+ .showcase-content{
+   padding-top:150px;
+ }
+
+
+  .primary{
+   color:rgb(231, 206, 173);
+ }
+ 
+ .text{
+   font-size: 15px;
+  max-width:1100px;
+  text-align: center;
+  color:white;
+  margin:50px 0;
+  
+  line-height: 23px;
+  padding:10px;
+  
+ }
+ 
+ .btn{
+  display: inline-block;
+  text-decoration: none ;
+  background:rgba(65, 64, 64, 0.7);
+  color:white;
+  padding:3px 10px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background 1s;
+  transition: color 1s;
+  
+  transition: transform 1s;
+  
+  border-radius: 5px;
+  
+ }
+
+ .btn-light{
+   background:white;
+   color:#333; 
+ }
+
+ 
+ .btn:hover{
+   transform:scale(1.05); 
+  background:rgb(231, 206, 173);
+   color: #333;   
+ }
+
+ .btn-light:hover{
+  transform: scale(1);
+  transition: background 0.2s;
+}
+   
+ #center{
+   text-align: center;
+   padding:20px;
+   
+ }
+
+
+/* home-info */
+
+#home-info{
+  height:500px;
+
+}
+
+#home-info .info-img{
+  display:block;
+  float: left;
+  width: 50%;
+  background: url('../img/photo-1.jpg') no-repeat center center/cover;
+  min-height:500px;
+}
+
+#home-info .info-content{
+  float:right;
+  max-width:50%;
+  height:500px;
+  text-align:center;
+  background:#333;
+  color:white;
+  overflow:auto;
+  
+  
+}
+
+#home-info .info-content p{
+ padding:60px;
+ line-height: 30px;
+ padding-bottom:40px;
+}
+
+#home-info .info-content h2{
+  padding-top:25px;
+  font-size: 35px;
+}
+
+.box{
+  float:left;
+  width:33.3%;
+  text-align: center;
+  padding:30px;
+  background:rgb(231, 206, 173);
+  line-height: 30px;
+
+}
+
+.free_meals{
+  background-color: rgb(247, 242, 242);
+
+}
+
+#features .fas{
+  transition: color 0.2s;
+  transition: transform 1s  ;
+}
+
+#features .fas:hover{
+  /* color:rgb(238, 234, 234); */
+  transform: scale(1.2);
+}
+
+
+.box i{
+  margin:10px;
+}
+.box p{
+  margin-top:20px;
+}
+#main-footer{
+  text-align:center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:15px;
+  background-color: rgba(51, 51, 51, 0.952)!important;
+  color:rgb(247, 242, 242);
+}
+
+/* about page */
+
+#about-info .info-left{
+ 
+  max-width:100%;
+  text-align: center;
+  line-height: 30px;
+  padding:50px 20px 30px 20px;
+  font-weight: bold;
+  
+}
+
+#about-info .info-left h1{
+padding-bottom:40px;
+margin-bottom: 20px;
+font-size: 50px;
+text-align: center;
+
+}
+
+/* #about-info{
+  background:url('../img/photo-2.jpg') no-repeat top fixed;
+  height:400px;
+  
+  
+} */
+
+
+/* testimonials */
+
+
+#testimonials{
+  max-width:100%;
+  background: url('../img/test-bg.jpg') no-repeat center center/cover;
+}
+
+#testimonials{
+  background-color: black;
+}
+
+#testimonials h2{
+  text-align: center;
+  color:white;
+  font-size: 40px;
+  padding:25px;
+  margin-top: 25px;
+} 
+
+
+#testimonials .person img{
+  float:left;
+  width:30%;
+  height:260px;
+  margin: 10px 10px;
+  border-radius: 10%;
+}
+
+#testimonials .person p{
+  width:60%;
+  float:right;
+  line-height: 25px;
+  padding-top:90px;
+
+  
+}
+
+#testimonials .person{
+  background-color:rgb(231, 206, 173) ;
+  height:280px;
+  opacity: 0.9;
+  max-width:100%;
+  margin: 10px;
+  border-radius: 10px;
+  /* transition: transform 1s; */
+  /*  */
+}
+
+
+/* Contact page */
+
+
+#contact-info{
+  margin:10px;
+}
+
+#contact-info h1{
+  font-size: 40px;
+  padding-top:25px;
+}
+
+#contact-info p{
+
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+#contact-info label{
+  display: block;
+  height:25px;
+  
+}
+
+#contact-info input{
+  width:100%;
+  height:40px;
+  border: 1px #ddd solid;
+  
+}
+
+#contact-info textarea{
+  height:200px;
+  width:100%;
+  border: 1px #ddd solid;
+  margin-top:12px;
+}
+
+
+
+.form-table{
+  line-height: 25px;
+  padding:20px 0;
+}
+
+
+
+.btn-1{
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px 20px;
+     margin-left:47%; 
+    margin-bottom:40px; 
+}
+
+.btn-1:hover{
+  transform: scale(0.9);
+  background-color: black;
+  color:white;
+}
+
+.box-1{
+  float:left;
+  width:33.33%;
+  text-align:center;
+
+}
+
+#options{
+  margin-top:20px;
+  margin-bottom:20px;
+
+  
+}
+
+
+  #options .fas{
+    transition: color 1s;
+    transition: transform 1s;
+  }
+  
+  #options .fas:hover{
+    color:rgb(231, 206, 173);
+    cursor:pointer;
+    transform: scale(1.2);
+  }
